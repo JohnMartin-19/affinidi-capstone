@@ -5,6 +5,8 @@ const ProductDisplay = ({ addToCart }) => {
   const products = [
     { id: 1, name: 'Hoodie', price: 10, imageUrl: 'hoodie.png' },
     { id: 2, name: 'T-Shirt', price: 15, imageUrl: 'tee.png' },
+    //added an item
+    { id: 3, name: 'Jeans', price: 30, imageUrl: 'jeans.jpg' },
   ];
 
   return (
